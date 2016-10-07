@@ -1,0 +1,30 @@
+<div id="login">
+	<img class="logo_travelguide" src="img/logo_travelguide.png">
+	<form id="login-form" name="loginForm" ng-submit="sendLogin(login)">
+
+	    <alert type="danger" ng-show="error">
+	        {{ error }}
+	    </alert>
+
+	    <div class="form-group">
+	        <img class="login_icons" src="img/ic_user.png">
+	        <input type="text" ng-model="login.user" class="form-control" placeholder="Username">
+	        <img class="line" src="img/line.png">
+	    </div>
+	  
+	    <div class="form-group">
+	    	<img class="login_icons" src="img/ic_password.png">
+	    	<input type="password" ng-model="login.password" class="form-control" placeholder="Password">
+	        <img class="line" src="img/line.png">
+	    </div>
+	  
+	    <input type="image" src="img/bt_login.png" class="bt_login" alt="Submit">
+
+	    <!-- touch id apenas sendo um p tag para este exercicio -->
+		<p class="touch_id">Or use the Touch ID</p>
+	
+	</form>
+	
+	<img class="logo_ak" src="img/logo_ak.png">
+
+</div>
