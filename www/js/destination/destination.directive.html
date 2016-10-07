@@ -2,5 +2,5 @@
 	<input type="image" class="back" src="img/bt_back.png" ng-click="back()">
 	<img class="logo" src="img/logo_travelguide.png">
 	<h2 class="destination_type">{{ destinationInfo.name }}</h2>
-	<input type="image" src="img/button.png" class="bt_cities" ng-click="destinationInfo.click()"><span class="button_wording" ng-click="destinationInfo.click()">View cities</span>
+	<input type="image" src="img/button.png" class="bt_cities" ng-click="goToCities(destinationInfo.name)"><span class="button_wording" ng-click="goToCities(destinationInfo.name)">View cities</span>
 </div>

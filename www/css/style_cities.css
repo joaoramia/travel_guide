@@ -1,0 +1,72 @@
+.bt_hotels {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+}
+
+.country {
+	position: absolute;
+	top: 60%;
+	margin-left: 15%;
+	color: rgba(128, 128, 128, 1);
+}
+
+.city_name {
+	position: absolute;
+	top: 60%;
+	margin-left: 15%;
+	color: white;
+}
+
+.city_description {
+	position: absolute;
+	top: 70%;
+	margin-left: 15%;
+	color: rgba(224, 224, 224, 1);
+}
+
+/* cada cidade tem sua propria imagem de fundo, como segue abaixo*/
+
+#cancun1 {
+	background-image: url('../img/bg_cancun1.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#cancun2 {
+	background-image: url('../img/bg_cancun2.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#fernandodenoronha1 {
+	background-image: url('../img/bg_fernandodenoronha1.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#fernandodenoronha2 {
+	background-image: url('../img/bg_fernandodenoronha2.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#paris1 {
+	background-image: url('../img/bg_paris1.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#paris2 {
+	background-image: url('../img/bg_paris2.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}

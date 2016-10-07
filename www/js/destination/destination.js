@@ -28,24 +28,20 @@ app.controller('DestinationCtrl', function ($scope, $state, $ionicSlideBoxDelega
 
     $scope.paradise = DestinationFactory.paradise;
 
-    // $scope.beaches = {name: 'Beaches', click: function(){$state.go('beaches')}};
-
-    // $scope.romantic = {name: 'Romantic', click: function(){$state.go('romantic')}};
-
-    // $scope.paradise = {name: 'Paradise', click: function(){$state.go('paradise')}};
-
     $scope.back = function(){$state.go('login')};
+
+    $scope.goToCities = function(cities){$state.go('cities', {cities: cities})}
 
 });
 
 app.factory('DestinationFactory', function(){
 	var DestinationFactory = {};
 
-    DestinationFactory.beaches = {name: 'Beaches', click: function(){$state.go('beaches')}};
+    DestinationFactory.beaches = {name: 'Beaches'};
 
-    DestinationFactory.romantic = {name: 'Romantic', click: function(){$state.go('romantic')}};
+    DestinationFactory.romantic = {name: 'Romantic'};
 
-    DestinationFactory.paradise = {name: 'Paradise', click: function(){$state.go('paradise')}};
+    DestinationFactory.paradise = {name: 'Paradise'};
 
     return DestinationFactory;
 });
