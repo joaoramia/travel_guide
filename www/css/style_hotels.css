@@ -1,0 +1,103 @@
+.navbar {
+	margin-top: 0;
+	width: 100%;
+	position: relative;
+}
+
+.back_hotels {
+	top: 4%;
+	float: left;
+	position: absolute;
+    margin-left: 4%;
+    margin-right: auto;
+}
+
+.hotels_nav {
+	top: 4%;
+	position: absolute;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 1);
+}
+
+.hotel_name {
+	padding-left: 10%;
+	padding-top: 10%;
+	color: rgba(255, 255, 255, 1);
+}
+
+.hotel_price {
+	padding-left: 10%;
+	padding-top: 4%;
+	color: rgba(255, 255, 255, 1);
+}
+
+.single_hotel {
+	width: 95%;
+	cursor: pointer;
+}
+
+
+
+#hotels_list {
+	height: 25%;
+	padding-top: 5%;
+	padding-left: 2.5%;
+}
+
+/* cada hotel tem sua propria imagem de fundo, como segue abaixo */
+
+#omelhorhotel {
+	background: url('../img/cel_fernandodenoronha1.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#ibis {
+	background: url('../img/cel_fernandodenoronha2.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#pousadanova {
+	background: url('../img/cel_fernandodenoronha3.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#hyattzilara {
+	background: url('../img/cel_hotelcancun1.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#moonpalace {
+	background: url('../img/cel_hotelcancun2.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#liveaqua {
+	background: url('../img/cel_hotelcancun3.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#parishotel {
+	background: url('../img/cel_hotelparis1.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#lemis {
+	background: url('../img/cel_hotelparis2.png');
+	background-size: cover;
+	height: 100%;
+}
+
+#hotelpanache {
+	background: url('../img/cel_hotelparis3.png');
+	background-size: cover;
+	height: 100%;
+}

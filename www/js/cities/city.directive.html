@@ -4,5 +4,5 @@
 	<p class="country">{{ cityInfo.country }}</p>
 	<h3 class="city_name">{{ cityInfo.name }}</h3>
 	<p class="city_description">{{ cityInfo.description }}</p>
-	<input type="image" src="img/bt_viewhotels.png" class="bt_hotels">
+	<input type="image" src="img/bt_viewhotels.png" class="bt_hotels" ng-click="goToHotels(cityInfo.id, cityInfo.name)">
 </div>

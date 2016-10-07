@@ -31,6 +31,9 @@ app.factory('LoginFactory', function(){
 	var LoginFactory = {};
 
 	LoginFactory.checkLogin = function(loginInfo){
+        //primeiro transforma-se em minusculas, caso a primeira seja maiuscula como default:
+        loginInfo.user = loginInfo.user.toLowerCase();
+        
 		if (loginInfo.user === 'ibm' && loginInfo.password === '123456') return true;
 		return false;
 	}
