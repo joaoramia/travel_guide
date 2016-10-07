@@ -1,0 +1,62 @@
+#Beaches {
+	background-image: url('../img/bg_beaches.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#Romantic {
+	background-image: url('../img/bg_romantic.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#Paradise {
+	background-image: url('../img/bg_paradise.png');
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+.logo {
+	padding-top: 15%;
+	width: 40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back {
+	padding-top: 15%;
+	float: left;
+	display: block;
+    margin-left: 4%;
+    margin-right: auto;
+}
+
+.destination_type {
+	color: white;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.bt_cities {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+}
+
+.button_wording {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
