@@ -16,7 +16,7 @@ app.controller('CommentsCtrl', function ($scope, $state, $ionicSlideBoxDelegate,
 
     $scope.back = function(){$ionicHistory.goBack();};
 
-    //a funcao abaixa adiciona o comentario ao view, mas temporariamente, uma vez que nao estamos salvando em um banco de dados
+    //a funcao abaixo adiciona o comentario ao view, mas temporariamente, uma vez que nao estamos salvando em um banco de dados
     $scope.submitComment = function(){
         //checamos se o comentario nao esta vazio (null) antes de adicionarmos:
         if($scope.newComment && $scope.newComment.length <= 40){

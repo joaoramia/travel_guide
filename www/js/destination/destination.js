@@ -47,11 +47,11 @@ app.factory('DestinationFactory', function(){
 });
 
 app.directive('destination', function() {
-  return {
-    restrict: 'E',
-    scope: {
-        destinationInfo: '=info'
-    },
-    templateUrl: 'js/destination/destination.directive.html'
-  };
+    return {
+        restrict: 'E',
+        scope: {
+            destinationInfo: '=info'
+        },
+        templateUrl: 'js/destination/destination.directive.html'
+    };
 });

@@ -2,10 +2,12 @@
 	<img class="navbar" src="img/navbar.png">
 	<h4 class="hotels_nav">{{ city }} Hotels</h4>
 	<input type="image" class="back_hotels" src="img/bt_back.png" ng-click="back()">
+	
 	<div ng-repeat="(key, value) in hotels" id="hotels_list">
 		<div id="{{ value.id }}" class="single_hotel" ng-click="goToHotel(value.id)">
 			<h3 class="hotel_name">{{ key }}</h3>
 			<p class="hotel_price">{{ value.price }}</p>
 		</div>
 	</div>
+	
 </div>

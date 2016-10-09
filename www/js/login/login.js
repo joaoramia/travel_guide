@@ -17,6 +17,7 @@ app.controller('LoginCtrl', function ($scope, $state, LoginFactory) {
     $scope.sendLogin = function(loginInfo) {
 
         if(LoginFactory.checkLogin(loginInfo)) {
+            $scope.error = null;
             $state.go('destination');
         }
         else {
