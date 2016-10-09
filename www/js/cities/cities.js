@@ -26,7 +26,7 @@ app.controller('CitiesCtrl', function ($scope, $state, $ionicSlideBoxDelegate, $
 
     $scope.back = function(){$state.go('destination')};
 
-    $scope.goToHotels = function(hotels, city){$state.go('hotels', {hotels: hotels, city: city})}
+    $scope.goToHotels = function(hotels, city){$state.go('hotels', {hotels: hotels, city: city})};
 
 });
 

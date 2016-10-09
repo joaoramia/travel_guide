@@ -30,7 +30,7 @@ app.controller('DestinationCtrl', function ($scope, $state, $ionicSlideBoxDelega
 
     $scope.back = function(){$state.go('login')};
 
-    $scope.goToCities = function(cities){$state.go('cities', {cities: cities})}
+    $scope.goToCities = function(cities){$state.go('cities', {cities: cities})};
 
 });
 
