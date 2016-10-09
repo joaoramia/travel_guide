@@ -1,6 +1,7 @@
 <div id="hotel">
 	<h4 class="hotel_nav">Hotels</h4>
 	<img class="hotel_main_image" src="{{ hotelInfo.pictures[0] }}">
+	<img class="bt_comments" src="img/bt_comments.png" ng-click="goToComments()">
 	<input type="image" class="back_hotels" src="img/bt_back.png" ng-click="back()">
 	<div class="hotel_pictures">
 		<div class="hotel_single_picture" ng-repeat="(key, value) in hotelInfo.pictures">

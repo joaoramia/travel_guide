@@ -14,7 +14,7 @@ app.controller('HotelCtrl', function ($scope, $state, $ionicSlideBoxDelegate, $s
 
     $scope.back = function(){$ionicHistory.goBack();};
 
-    // $scope.goToComments = function(hotel){$state.go('hotel', {hotel: hotel})}
+    $scope.goToComments = function(){$state.go('comments', {city: $stateParams.city, hotel: $stateParams.hotel})};
 
 });
 

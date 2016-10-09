@@ -1,0 +1,20 @@
+<div id="comments">
+	<img class="navbar" src="img/navbar.png">
+	<input type="image" class="back_hotels" src="img/bt_back.png" ng-click="back()">
+
+	<div class="form-group-comments">
+        <img class="comment_icon" src="img/bt_comments.png">
+        <input type="text" ng-model="newComment" class="form-control-comments" placeholder="Leave a comment!">
+        <span class="submit_comment" ng-click="submitComment()">Submit</span>
+        <img class="comment_line" src="img/line.png">
+    </div>
+
+    <div class="all-comments">
+		<h4 class="hotels_nav">Comments</h4>
+		<div class="comment" ng-repeat="(key, value) in hotelInfo.comments">
+			<span class="date">{{ value.date | date:'yyyy-MM-dd' }}</span>
+			<p class="single_comment">{{ value.comment }}</p>
+			<img src="img/line.png">
+		</div>
+	</div>
+</div>
