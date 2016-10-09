@@ -1,0 +1,125 @@
+.hotel_main_image {
+	margin-top: 0;
+	width: 100%;
+	position: relative;
+}
+
+.hotel_nav {
+	top: 4%;
+	position: absolute;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+}
+
+.single_picture {
+	margin-top: 0;
+	width: 30%;
+	display: block;
+	float: left;
+}
+
+.title_price_wrapper {
+	width: 100%;
+}
+
+.title_div {
+	width: 80%;
+	float: left;
+	display: table-cell;
+}
+
+.price_div {
+	width: 10%;
+	float: right;
+	display: table-cell;
+	padding-top: 5%;
+	margin-right: 4%;
+}
+
+.price {
+	float: right;
+	vertical-align: middle;
+}
+
+.single_hotel_price {
+	position: absolute;
+	color: black;
+	font-size: 10px;
+	left: 88%;
+	padding-top: 10%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 20%;
+	text-align: center;
+	line-height: 1;
+}
+
+.stars {
+	float: left;
+	display: block;
+	clear: both;
+	margin-top: 5%;
+	margin-left: 12%;
+	margin-right: 10%;
+}
+
+.hotel_title {
+	float: left;
+	left: 0;
+	display: block;
+	clear: both;
+	margin-top: 5%;
+	margin-left: 12%;
+	margin-right: 10%;
+}
+
+.line_hotel {
+	position: absolute;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	clear: both;
+	width: 80%;
+	margin-top: 40%;
+}
+
+.hotel_description {
+	float: left;
+	left: 0;
+	display: block;
+	clear: both;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.services {
+	float: left;
+	left: 0;
+	display: block;
+	clear: both;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.services_detail {
+	float: left;
+	left: 0;
+	display: block;
+	clear: both;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.book_now {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}

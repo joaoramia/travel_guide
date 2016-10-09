@@ -10,4 +10,4 @@ Instructions:
 
 	$npm test (for testing)
 
-	$ionic serve --lab (for emulating on the browser)
+	$ionic serve --lab (for emulating on the browser. You need ionic globally installed)

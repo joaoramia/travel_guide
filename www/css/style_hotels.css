@@ -10,6 +10,7 @@
 	position: absolute;
     margin-left: 4%;
     margin-right: auto;
+    z-index: 1;
 }
 
 .hotels_nav {

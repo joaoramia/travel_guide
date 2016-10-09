@@ -1,0 +1,25 @@
+<div id="hotel">
+	<h4 class="hotel_nav">Hotels</h4>
+	<img class="hotel_main_image" src="{{ hotelInfo.pictures[0] }}">
+	<input type="image" class="back_hotels" src="img/bt_back.png" ng-click="back()">
+	<div class="hotel_pictures">
+		<div class="hotel_single_picture" ng-repeat="(key, value) in hotelInfo.pictures">
+			<img class="single_picture" ng-src="{{ value }}">
+		</div>
+	</div>
+	<div class="title_price_wrapper">
+		<div class="title_div">
+			<img class="stars" src="img/stars.png">
+			<h4 class="hotel_title">{{ hotelInfo.name }}</h4>
+		</div>
+		<div class="price_div">
+			<img class="price" src="img/price.png">
+			<p class="single_hotel_price">{{ hotelInfo.price }}</p>
+		</div>
+	</div>
+	<img class="line_hotel" src="img/line.png">
+	<p class="hotel_description">{{ hotelInfo.description }}</p>
+	<h5 class="services">Services</h5>
+	<p class="services_detail">{{ hotelInfo.services }}</p>
+	<img class="book_now" src="img/bt_booknow.png">
+</div>

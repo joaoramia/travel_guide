@@ -8,7 +8,7 @@ app.config(function ($stateProvider, $urlRouterProvider	) {
     $urlRouterProvider.otherwise('/');
 });
 
-app.controller('DestinationCtrl', function ($scope, $state, $ionicSlideBoxDelegate, DestinationFactory) {
+app.controller('DestinationCtrl', function ($scope, $state, $ionicSlideBoxDelegate, $ionicHistory, DestinationFactory) {
 
     $scope.next = function() {
         $ionicSlideBoxDelegate.next();
@@ -28,7 +28,7 @@ app.controller('DestinationCtrl', function ($scope, $state, $ionicSlideBoxDelega
 
     $scope.paradise = DestinationFactory.paradise;
 
-    $scope.back = function(){$state.go('login')};
+    $scope.back = function(){$ionicHistory.goBack();};
 
     $scope.goToCities = function(cities){$state.go('cities', {cities: cities})};
 
