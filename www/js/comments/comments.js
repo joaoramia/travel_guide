@@ -18,14 +18,14 @@ app.controller('CommentsCtrl', function ($scope, $state, $ionicSlideBoxDelegate,
 
     //a funcao abaixa adiciona o comentario ao view, mas temporariamente, uma vez que nao estamos salvando em um banco de dados
     $scope.submitComment = function(){
-        
         //checamos se o comentario nao esta vazio (null) antes de adicionarmos:
-        if($scope.newComment){
+        if($scope.newComment && $scope.newComment.length <= 40){
             var commentToAdd = {date: new Date(), comment: $scope.newComment};
             $scope.hotelInfo.comments.push(commentToAdd);
             $scope.newComment = null;
+            return true;
         }
-        
+        return false;
     };
 
 });
